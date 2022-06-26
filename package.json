@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://gitee.com/bc160/personal-blog.git",
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^13.0.1",
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
