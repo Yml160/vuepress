@@ -1,18 +1,21 @@
+const nav = require("./nav.js");
 module.exports = {
-    title: '北城watch',
+    title: '北城code',
     description: 'Just playing around',
-
+    // theme:'reco',
+    locales:{
+        '/':{
+            lang:'zh-CN'
+        }
+    },
     markdown: {
         lineNumbers: true
     },
     themeConfig: {
         logo: '/assets/img/BC.jpg',
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/foo/' },
-            { text: 'External', link: 'https://google.com' },
-        ],
+        nav,
         sidebar: 'auto',
+        subSidebar:'auto',
         algolia: {
             apiKey: '<API_KEY>',
             indexName: '<INDEX_NAME>'
@@ -31,6 +34,7 @@ module.exports = {
               theme: '好吧，希望你能喜欢我的其他小伙伴。',
               close: '再见哦'
             }
-          }]
+          }],
+          ["vuepress-plugin-auto-sidebar", {}]
     ]
 }
