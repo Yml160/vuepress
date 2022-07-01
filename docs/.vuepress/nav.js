@@ -5,6 +5,10 @@ module.exports = [
       {
         "text": "了解更多",
         "link": "/了解更多/"
+      },
+      {
+        "text": "微信公众平台接口",
+        "link": "/了解更多/微信公众平台接口/"
       }
     ]
   },
@@ -42,8 +46,16 @@ module.exports = [
     "text": "后端",
     "items": [
       {
+        "text": "Mysql",
+        "link": "/后端/数据库/mysql/"
+      },
+      {
         "text": "后端",
         "link": "/后端/"
+      },
+      {
+        "text": "数据库",
+        "link": "/后端/数据库/"
       }
     ]
   },

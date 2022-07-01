@@ -14,7 +14,8 @@
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "sass-loader": "^13.0.1",
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
